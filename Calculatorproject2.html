@@ -1,0 +1,137 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Casio Scientific Calculator</title>
+
+<style>
+
+body{
+    background:#cfd8dc;
+    font-family:Arial;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.calculator{
+    width:300px;
+    background:#2f2f2f;
+    border-radius:10px;
+    padding:15px;
+    box-shadow:0 10px 20px rgba(0,0,0,0.4);
+}
+
+.brand{
+    color:white;
+    font-weight:bold;
+    margin-bottom:5px;
+}
+
+.model{
+    color:#9ccc65;
+    font-size:14px;
+    margin-bottom:10px;
+}
+
+.display{
+    background:#b0bec5;
+    height:50px;
+    border-radius:5px;
+    margin-bottom:15px;
+}
+
+.buttons{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap:8px;
+}
+
+button{
+    height:40px;
+    border:none;
+    border-radius:5px;
+    background:#424242;
+    color:white;
+    font-size:14px;
+}
+
+button:hover{
+    background:#616161;
+}
+
+.orange{
+    background:#ef6c00;
+}
+
+.blue{
+    background:#1565c0;
+}
+
+.green{
+    background:#2e7d32;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="calculator">
+
+<div class="brand">CASIO</div>
+<div class="model">fx-991ES PLUS</div>
+
+<div class="display"></div>
+
+<div class="buttons">
+
+<button class="blue">SHIFT</button>
+<button class="blue">ALPHA</button>
+<button>MODE</button>
+<button>ON</button>
+<button class="orange">AC</button>
+
+<button>sin</button>
+<button>cos</button>
+<button>tan</button>
+<button>log</button>
+<button>ln</button>
+
+<button>√</button>
+<button>x²</button>
+<button>^</button>
+<button>(</button>
+<button>)</button>
+
+<button>7</button>
+<button>8</button>
+<button>9</button>
+<button>÷</button>
+<button>DEL</button>
+
+<button>4</button>
+<button>5</button>
+<button>6</button>
+<button>×</button>
+<button>Ans</button>
+
+<button>1</button>
+<button>2</button>
+<button>3</button>
+<button>-</button>
+<button>=</button>
+
+<button>0</button>
+<button>.</button>
+<button>π</button>
+<button>+</button>
+<button class="green">EXE</button>
+
+</div>
+
+</div>
+
+</body>
+</html>
